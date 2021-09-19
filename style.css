@@ -542,6 +542,10 @@ footer {
   html {
     font-size: 14px;
   }
+  .hero {
+    justify-content: flex-end;
+    height: 70vh;
+  }
   /* Contact Us Form */
   .contact-form-box {
     width: 100%;
@@ -567,25 +571,6 @@ footer {
     margin: 0;
   }
 
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-  }
-  .footer-right,
-  .footer-left {
-    width: 80%;
-    margin: 16px auto 0;
-  }
-  .footer-left .logo img {
-    text-align: center;
-  }
-  .footer-right p {
-    text-align: left;
-  }
-}
-@media screen and (max-width: 375px) {
   .footer-container {
     flex-direction: column;
     align-items: center;
